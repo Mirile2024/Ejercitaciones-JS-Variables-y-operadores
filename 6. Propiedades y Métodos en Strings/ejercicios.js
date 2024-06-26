@@ -3,3 +3,18 @@
 // Ejercicio 6.3: Usa el método 'slice' para extraer la palabra "JavaScript" de la variable 'frase' y muestra el resultado en la consola.
 // Ejercicio 6.4: Declara una variable 'nombreCompleto' y asígnale el valor "   Juan Pérez   ". Usa el método 'trim' para eliminar los espacios en blanco al principio y al final de la cadena y muestra el resultado en la consola.
 // Ejercicio 6.5: Declara una variable 'cancion' y asígnale el valor "Twinkle, twinkle, little star". Usa el método 'split' para dividir la cadena en palabras individuales y muestra el resultado en la consola.
+
+// Ejercicio 6.1:
+let frase = 'JavaScript es genial'
+console.log(frase.length)
+// Ejercicio 6.2:
+console.log(frase.indexOf('genial'))
+// Ejercicio 6.3:
+console.log(frase.slice(0,10))
+// Ejercicio 6.4:
+const nombreCompleto ="Juan Perez"
+console.log(nombreCompleto.trim(0))
+// Ejercicio 6.5:
+const cancion = "Twinkle, twinkle, little star"
+console.log(cancion.split(1,2,3,4))
+
